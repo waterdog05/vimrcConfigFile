@@ -15,15 +15,15 @@ nmap <F8> :NERDTreeToggle<CR>
 let NERDTreeShowLineNumbers=1
 
 " nerdcommenter
-let g:NERDSpaceDelims = 1
-let g:NERDCompactSexyComs = 1
-let g:NERDDefaultAlign = 'left'
-let g:NERDAltDelims_java = 1
-let g:NERDCustomDelimiters = { 'c': { 'left': '/*', 'right': '*/'} }
-let g:NERDCommentEmptyLines = 1
-let g:NERDTrimTrailingWhitespace = 1
-map <Leader>cc <plug>NERDComToggleComment
-map <Leader>c<space> <NERDComComment
+" let g:NERDSpaceDelims = 1
+" let g:NERDCompactSexyComs = 1
+" let g:NERDDefaultAlign = 'left'
+" let g:NERDAltDelims_java = 1
+" let g:NERDCustomDelimiters = { 'c': { 'left': '/*', 'right': '*/'} }
+" let g:NERDCommentEmptyLines = 1
+" let g:NERDTrimTrailingWhitespace = 1
+" map <Leader>cc <plug>NERDComToggleComment
+" map <Leader>c<space> <NERDComComment
 
 " delimitMate
 let delimitMate_expand_cr=1
